@@ -1,0 +1,30 @@
+li {
+    display: inline;
+    
+  }
+  
+h1{
+    background-color: yellow;
+}
+
+.navbar{
+  border: groove 2px ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  position: sticky ;
+  top: 0%;
+  background-color: grey;
+  
+  
+  }
+  img{
+    width: 100%;
+  }
+  button{
+    width: 100px;
+    height: 40px;
+  }
+ a{
+  text-decoration: none}
