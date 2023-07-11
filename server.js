@@ -11,7 +11,7 @@ console.log(hour)
 const users=require("./users")
 
  const midware=(req,res,next)=>{
-    (day<=5 && day>=1 && hour>=9 && hour<=23) ? next() : res.send("The web application is only available during working hours (Monday to Friday,  from 9 to 17)")
+    (day<=5 && day>=1 && hour>=9 && hour<=17) ? next() : res.send("The web application is only available during working hours (Monday to Friday,  from 9 to 17)")
  }
  app.use(express.json())
  app.use(midware);
